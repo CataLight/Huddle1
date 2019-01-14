@@ -119,10 +119,11 @@ p{
     color: #ddd;
 }
 
-/* Computer screen size */
+/* Computer screen size-1440px */
 
-@media(min-width:50rem){
+@media(min-width:90rem){
     
+
     .home-hero h1{
         font-size: 2rem;
         margin:1em 0;
@@ -156,19 +157,17 @@ p{
 
     .social-media{
         position: relative;
-        left: 0.9em;
+        left: 1em;
         margin-left: 2em;
     } 
     
-    .social-media i{
-        font-size: 1rem;
-    }
 
     footer ul{
         position: relative;
-        top: -9rem;
-        left: 14rem;
+        top: -13rem;
+        left: 25rem;
         margin-left: 2em;   
+        font-size:1.5rem;
     }
 
     footer ul li{
@@ -176,16 +175,12 @@ p{
         display: inline-block;
     }
 
-    footer ul a{
-        border:1px solid red;
-    }
-
     footer p{
         display: flex;
         justify-content: flex-end;
         clear: both;
         position: relative;
-        top: -11rem;
-        margin-right: 4em;
+        top: -16rem;
+        margin-right: 13em;
     }
 }
